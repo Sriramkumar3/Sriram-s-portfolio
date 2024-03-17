@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#educations {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#educations>h1 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}
+#educations>div{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.year{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(228, 39, 6);
+    
+}
+.percentage{
+   color: aqua;
+    text-shadow: 0px 0px 2px;
+    font-weight: 900;
+    font-size: larger;
+}
+.institution{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+}
